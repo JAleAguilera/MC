@@ -29,7 +29,7 @@ Durante la primera clase se realizó una breve introducción  a las diferentes h
 
 *
 
-	- Crear un archivo: Para crear el archivo, es necesario tener un editor de texto, se puede escojer entre Emacs,Vi, etc... (Para este caso se usó Emacs)
+	- Crear un archivo: Para crear el archivo, es necesario tener un editor de texto, se puede escojer entre Emacs,Vi, etc... 
 		*emacs nombreArchivo &*
 
 	- Llevar el archivo a GitHub
