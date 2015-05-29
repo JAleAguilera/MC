@@ -19,6 +19,10 @@
 
 -Tercer Elemento
 
+Enlace a link:
+
+[I´m an inline-style link](https://github.com/JAleAguilera)
+
 
 `Trozo Código InLine; se ve la linea de texto sombreada por una linea gris `
 
