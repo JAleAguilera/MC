@@ -29,6 +29,7 @@ Durante la primera clase se realizó una breve introducción  a las diferentes h
 
 
 *
+
 	- Crear un archivo: Para crear el archivo, es necesario tener un editor de texto, se puede escojer entre Emacs,Vi, etc... 
 		*emacs nombreArchivo &*
 
