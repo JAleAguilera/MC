@@ -20,7 +20,11 @@
 -Tercer Elemento
 
 
+`Trozo Código InLine; se ve la linea de texto sombreada por una linea gris `
 
+```
+Mi Códgio en Bloque; se ve el texto enecerrado en un cuadrado gris
+```
 
 
 
