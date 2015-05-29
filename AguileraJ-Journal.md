@@ -1,21 +1,23 @@
-Primeraa Clase 
-27- Mayo-2015
+# **Bitácora** #
+## Clase 27 Mayo ##
 
-Hola MUndo!
-Ando comenzando el curso de **Metodos Computacionales**
+Hola Mundo!
 
-Herramientas del Curso:
-Git,
-GitHUb,
-Bash,
-C,
-Python. 
+Ando comenzando el curso de **Métodos Computacionales**
+
+Las Herramientas del curso son:
+
+- Git
+- GitHub
+- Bash
+- C
+- Python
 
 Y los Metodos a estudiar son:
 
-1 Interpolacion.
-2 Analisis de Fourier.
-3 Diferenciacion e Integracion Numerica.
-4 Ecuaciones Diferenciales Ordinarias.
-5 Ecuaciones Diferenciales Parciales.
-6 Monte Carlo.
+1. Interpolación 
+2. Análisis de Fourier
+3. Diferenciación e Integración Numérica
+4. Ecuaciones diferenciales ordinarias
+5. Ecuaciones diferenciales parciales
+6. Monte Carlo
