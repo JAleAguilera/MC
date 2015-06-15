@@ -26,10 +26,7 @@ Y los Metodos a estudiar son:
 Durante la primera clase se realizó una breve introducción  a las diferentes herramientas:
 
 - ***Git:*** Con Git se realizaron varios ejercicios como:
-
-
-*
-
+```
 	- Crear un archivo: Para crear el archivo, es necesario tener un editor de texto, se puede escojer entre Emacs,Vi, etc... 
 		*emacs nombreArchivo &*
 
@@ -42,7 +39,8 @@ Durante la primera clase se realizó una breve introducción  a las diferentes h
 	- Agregar un commit 
 		*git commit* 
 		*git add*
-		
+```
+
 De igual forma se vieron diferentes comandos como:
 
 - **Awk:** El comando es muy útil cuando se tienen hojas de cálculo. Como por ejemplo:
