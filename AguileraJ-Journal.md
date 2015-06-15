@@ -109,10 +109,7 @@ git log
 #Cada uno de los commit tiene un "Hash", que es como un especie de dirección 
 
 git check out "Hash"
-
-
 ```
-
 - Git utilidades mi proyecto de grado-- esfuerzo prologado-- guradando versiones 
 
 ***Taller***
