@@ -112,3 +112,34 @@ git check out "Hash"
 
 ***Taller***
 Se copió y descomprimió el directorio dado. El directorio pertencia a la calse de métodos computacionales y se encontró que la fecha del segundo commit corresponde al sábado 5 de enero de 2013 a las 19:28:57, y el tema de la semana 15 del curso fue el Método de Inferencia Bayesiana
+
+##Clase 2 Junio
+Enferme
+
+##Clase 3 Junio
+
+###Usos Grep, Curl & Sed (Limpiando código fuente)
+```
+curl 
+
+grep 's 
+
+sed
+
+```
+*Ejemplo*
+- **Datos historicos sobre la tasa de cambio actual** (Pesos Colombianos a Dolar) - ~Busquedad restriginda en Google~
+
+Examinar el código fuente (HTLM) de la pagina, es posible directamente por mirarlo en Internet (Goolge Crome)
+
+La informaciópn que nos interesa, filtrara es la fecha 
+
+- No olvidar la ayuda de Internet es muy útil en estos casos.
+
+##Clase 5 Junio
+
+
+##Clase 9 Junio
+
+##Clase 10 Junio
+
