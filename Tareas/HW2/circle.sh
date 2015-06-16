@@ -21,7 +21,6 @@ set parametric
 #Ponerle nombres a la gráfica (Estética)
 set title "C\írculo"
 set ylabel "Eje Y"
-set yLabel "Eje X"
 
 #Gráfica
 plot $1*sin(t),$1*cos(t)
