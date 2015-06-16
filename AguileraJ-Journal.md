@@ -120,21 +120,27 @@ Enferme
 
 ###Usos Grep, Curl & Sed (Limpiando código fuente)
 ```
-curl 
+#Sirve para traer el código fuente del sitio Web
+curl [opciones] LInkdelaPáginaWeb
 
-grep 's 
+#Buscar algo específico en el archivo con una opción de acción 
+grep [opciones] Patrón archivo
+ 
+#Sirve para buscar una palabra, un dígito, un número, alguna expresion regular, y que sea reemplazada por otra expresion regular o que eliminada
 
-sed
+sed 's/(Buscar)/(Reemplazar)/g'
+
+#Sacar el código fuente igual de la página web (Renderizar la página web a la terminal
+w3m LinkdelaPáginaWeb
 
 ```
-*Ejemplo*
+***Ejemplo***
 - **Datos historicos sobre la tasa de cambio actual** (Pesos Colombianos a Dolar) - ~Busquedad restriginda en Google~
 
 Examinar el código fuente (HTLM) de la pagina, es posible directamente por mirarlo en Internet (Goolge Crome)
 
-La informaciópn que nos interesa, filtrara es la fecha 
-
-- No olvidar la ayuda de Internet es muy útil en estos casos.
+**- No olvidar la ayuda de Internet es muy útil en estos casos.
+- Tampoco olvidar la ayuda de las expresiones regulares**
 
 ##Clase 5 Junio
 
