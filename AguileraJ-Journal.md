@@ -193,8 +193,32 @@ for i in range(1,10):
 #Sirve para declarar una lista
 lista = [ "uno", "dos", "tres", 2]
 ```
-
 ##Clase 9 Junio
 
-##Clase 10 Junio
+Se vieron mas ejemplos de Python 
 
+###Bases de Make 
+Funciona para "automatizar" una cadena de procesos 
+```
+#Sirve para ejecutar el archivo .mk
+gmake -f archivo.mk
+```
+##Clase 10 Junio
+###Animación
+Existen varias formas de crear las animaciones, entre las que se encuentran:
+
+- **BackEnd: ** Son objetos como lineas rectangulos (Instrucciones contenidas en el Front)
+	Ahora bien, con varios backEnds seguidos es posible reproducir una figura
+
+- **MatplotLib:** Contiene artistas, en donde los artistas tienen instrucciones para producir las diferentes figuras (lineas, rectangulos, círculos, etc...). De igual forma, los artistas se dividen en primitivas, que son elementos básicos, y se dividen también en contenedores, que son pimitivas "pre-definidas" para la creación de  una figura más complicada.
+
+Forma estandar para crear figuras en MatplotLib es:
+```
+- Hacer la figura (Objecto)
+- Sobre la figura se crean ejes o Subplot 
+- Sobre los ejes se empieza a trabajar
+```
+##Clase 12 Junio
+Se trabajo toda la clase en el Experimento 1
+
+##Clase 16 Junio
