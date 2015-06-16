@@ -143,7 +143,56 @@ Examinar el código fuente (HTLM) de la pagina, es posible directamente por mira
 - Tampoco olvidar la ayuda de las expresiones regulares**
 
 ##Clase 5 Junio
+###C
+A continuación se muestra un ejemplo básico de un método en C, se ve la forma como se debe declara las variables, como se imprimen, entre otros...
+```
+#include <stdio.h>
+/*
+* Comentarios en C. 
+*/
+int main(void)
+{
+ /*
+ * Es necesario declara el tipo de la variable. Para esta caso la variable (variable1) entra como parámetro
+ */
+ int variable1;
 
+ /*
+ * SIrva para pedir la variable en la terminal y luego es leída
+ */
+ printf("Introduzca un número. \n");
+ scanf("%d", &numero1);
+
+ /*
+ * Sirve para imprimir el contenido de la variable.
+ */
+ printf(variable1):
+}
+```
+- **No olvidar poner ; para cada linea de comando**
+
+***Ejemplo***
+*Metodos de MonteCarlo* -> Generar números aleaotrios en condiciones especificas.
+###Usos de Make 
+
+Make es un compilador de programas de C, también es un herramienta útil para el análisis de datos.
+
+No hubo tiempo suficiente pero a continuación hay un link para acceder al manual para el uso de  [Make](http://software-carpentry.org/v4/make/basics.html) 
+
+###Python
+Algunos comandos generales de Python son:
+```
+#Sirve para solicitar información al usuario
+x=raw_input ("Please enter x=")
+
+#Ciclo básico
+for i in range(1,10):
+	thesequare=i**2	
+	print str(i)+" ^2="+str(thesquare)
+
+#Sirve para declarar una lista
+lista = [ "uno", "dos", "tres", 2]
+```
 
 ##Clase 9 Junio
 
