@@ -26,6 +26,7 @@ x=sp.array([0,np.pi/2,((3*np.pi)/2),(2*np.pi)])
 interpol=sp.interpolate.interp1d(x,fun(x))
 ```
 ***Solución***
+
 **Comportamineto Oscilatorio con Pulsos Discontinuos:**
 Es posible ver este tipo de comportamientos en sistemas biologicos, como por ejemplo:
 - Reacciones enzimaticas
