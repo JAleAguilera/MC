@@ -293,7 +293,7 @@ Debe cumplir con las condiciones las siguientes condiciones:
 - Debe estar acotada
 
 ####Coeficientes de Fourier
-![Serie De Fourier ](/home/aleaguilera/MC/MC/d20c101dc33bed7d8b3c674b3bbb296d.png  "Coeficientes")
+![Serie De Fourier](https://github.com/JAleAguilera/MC/blob/master/d20c101dc33bed7d8b3c674b3bbb296d.png  "Coeficientes")
 
 ***Ejemplo ***
 Onda cuadrada (señales)
@@ -312,26 +312,118 @@ git tag -a "NombreDeLaEtiqueta"
 #Las etiquetas toca subirlas a mano desde la terminal
 git push origin master nombreDeLaEtiqueta
 ```
+###Transformada de Fourier
 
-###Fourier
+Se relaciona la transformada de Fourier con la interpolación polinomial, pero para este caso el ajuste es con Funciones Trigonométricas.  Se tiene una serie de puntos para aproximar a una serie de coeficientes para que la interpolacion se ajuste a la esperado, en el caso particular de la transformada pueden ser estos mismos puntos pero aqui se obtiene sen y cos, y esto resulta ser la transformada discreta de Fourier (traducir en términos de frecuencias)
 
+Aplicación en el filtrado de señales, Internet, música, entre otros
+
+Es necesario que los puntos esten uniformemente distribuidos
+
+```
+#Paquete de scipy -> fft fft2
+
+#Transformada rápida de Fourer
+#Potencias pares de pi (Mayor eficiencia)
+#Agregar ceros paa llegar a una potencia
+```
+****Ejemplo**** Filtrado de una señal ruidosa
 
 >El HandsOn es el número 9
+
 >Solución está:
 
 ##Clase 23 Junio
 
+###Derivación Númerica 
+
+Función se conoce de acuerdo a ciertos valores y se conoce la función en esos puntos.
+La forma más fácil de resolverlo es recordando la definición de derivada, tomando un h pequeño teniendo en cuenta los problemas de redondeo recordando lo dicho en el libro de Landau
+
+Es importante tener en cuenta el error de la operación. Lo ideal es que el error disminuya a medida que h (Step-size) se reduzca, para esto se buscan otro tipo de métodos. 
+EL error se calcula como la expansión de la serie de Taylor de la función que calcula el error. Tomando como referencia la diferencia hacia adelante o la diferencia hacia atrás o diferencia central.
+
+```
+#Paquete para hacer operaciones con símbolos 
+simpy
+```
+
+***Ejemplo*** Calcular la derivada de Sen(x)
+
+###Métodos de Extrapolación 
+
+Funciona para predecir un resultado acerca de un comportamiento futuro de cierta función, todo esto gracias al análisis de los datos.
+
 >El HandsOn es el número 10
+
 >Solución está:
 
 ##Clase 24 Junio
 
+###Métodos de Aproximación
+
+Formar y ver como los valores de una función en cuestión (Puntos de la gráfica). Se evalúa la función en esos intervalo y se ponderan en diferentes esquemas de aproximación. Se intenta partir desde lo mas sencillo posible.
+
+Estos metodos son más eficientes sí  el intervalo se parte en mas pedazos para un mayor aproximación a la integral
+ Existen algunos métodos de aproximación, tales como:
+
+- ***Aproximacion trapezoidal: *** La aproximación es una linea recta, lo que representa una  ventaja, ya que es más  fácil de manipular simbolicamente y de  evaluar numericamente, gastando menos lineas de código. La idea principal es formar un trapezoide y calcular la integral (Área del mismo)
+```
+(Base menor + Base mayor * altura )*1/2
+```
+- ***Simpsons: *** Tiene en cuenta la curvatura de la función, se ultiliza un polinomio de grado dos. 
+
+Es más eficiente llamar los métodos que construirlos. (En cuanto a código)
+Es importamte tener en cuenta aumenta o disminuye el error del método, esto también depende de la presición del método; hay que tener en cuenta el ámbito en que se desarrolla el método, por ejemplo en Ingeniería es indispensable tener una presición muy alta.
+
+***Ejemplo*** Vectorización de los puntos aplicado al método de SImpsons, usando sum.
+
+##Cuadratura Gaussiana - Integración Gaussiana:
+
+El objetivo principal de este método es hallar los valores en el eje horizonal y los W, (Número de abscisas) dejando la integral lo mejor posible. Es decir, dejar la integral "lo mejor posible" significa que el método sea excato para n puntos (Número finito) y para un polinmo de grado 2n-1
+
 >El HandsOn es el número 11
+
 >Solución está
 
 ##Clase 26 Junio
 
+###Ecuaciones Diferenciales
+La ciencia le gusta resover los problemas a tráves de una ecuación diferencial, es decir de modelar el problema con una ecuación diferencial,por eso es importante saber resolverlas.
+
+No olvidar que hay que decirle a la máquina que cosas son discretas y cuales no. Existen varias formas de resolver este tipo de ecuaciones, tales como:
+
+- ***Método de Euler:*** En un tiempo Yn mirar la trasnsición de Yn a Yn+1, en un intervalo de tiempo en el que se realiza el intervalo de tiempo, y asi se va construyendo la aproximación.
+
+***Ejemplo:*** Variable real que evalúa a números complejos. (Oscilador Armónico)
+
+- ***Regla del Punto Medio:*** La idea básica es tener el tiempo y la derivada, luego utilizar el valor de la derivada en un tiempo para saber mi punto de llegada e iterar con esto. Para después estimar lo mejor posible de la curva, con los métodos anteriores de aproximación.
+
+***Ejemplo:*** Cambio de método- Logro que el error disminuye conforme el delta de tiempo iba aumentando
+
+***Ejemplo*** Ley de Kepler- Calcular la derivada en la función y luego usar el método de SImpson para comprobar todas las leyes de Kepler.
+
 ##Clase 30 Junio 
 
+###Adam-Bashforth 
+Llamado el método de los multi-pasos.
+El objetivo principal de este método, viene desarrolado en un lenguaje de programación bastante antiguo. 
+
+***Ejemplo:*** Resolver la ecuación diferencial de Bessel 
+
 >El HandsOn es el número 12
+>Solución está
+
+##Clase 1 Julio
+
+###Simpy- Expresiones Símbolicas
+Se explicó la libreria de Simpy de forma interactiva, esto se muestra en el siguiente cuaderno.
+
+
+Se realizó:
+
+>El taller número 7
+>Solución se encuntra en la carpeta Talleres
+
+>El HandsOn es el número 13
 >Solución está
