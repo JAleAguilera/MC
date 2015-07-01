@@ -113,8 +113,14 @@ git check out "Hash"
 ***Taller***
 Se copió y descomprimió el directorio dado. El directorio pertencia a la calse de métodos computacionales y se encontró que la fecha del segundo commit corresponde al sábado 5 de enero de 2013 a las 19:28:57, y el tema de la semana 15 del curso fue el Método de Inferencia Bayesiana
 
+>El HandsOn es el número 1
+>Solución está
+
 ##Clase 2 Junio
 Enferme
+
+>El HandsOn es el número 2
+>Solución está
 
 ##Clase 3 Junio
 
@@ -193,6 +199,10 @@ for i in range(1,10):
 #Sirve para declarar una lista
 lista = [ "uno", "dos", "tres", 2]
 ```
+
+>El HandsOn es el número 3
+>Solución está
+
 ##Clase 9 Junio
 
 Se vieron mas ejemplos de Python 
@@ -203,6 +213,9 @@ Funciona para "automatizar" una cadena de procesos
 #Sirve para ejecutar el archivo .mk
 gmake -f archivo.mk
 ```
+>El HandsOn es el número 4
+>Solución está
+
 ##Clase 10 Junio
 ###Animación
 Existen varias formas de crear las animaciones, entre las que se encuentran:
@@ -218,7 +231,107 @@ Forma estandar para crear figuras en MatplotLib es:
 - Sobre la figura se crean ejes o Subplot 
 - Sobre los ejes se empieza a trabajar
 ```
+>El HandsOn es el número 5
+>Solución está
+
 ##Clase 12 Junio
 Se trabajo toda la clase en el Experimento 1
 
+>El HandsOn es el número 6
+>Solución está
+
 ##Clase 16 Junio
+###Ajustes e Interpolación 
+
+>El HandsOn es el número 7
+>Solución está
+
+##Clase 17 Junio
+###Ramas del Repositorio
+
+Dentro de mi GitHub es posible crear diferentes ramas.
+La idea de una rama es análoga a seguir diferentes caminos ; mi objetivo  final será  juntar estos caminos en determinado tiempo ( Esto se logra atravez de un mergue)
+
+Un herramienta útil para poder visualizar las ramas de mi GitHub es "SourceTree" . Esta funciona de forma gráfica de las ramas, tambiénpermite hacer cambios entre las ramas.
+
+```
+#Recordando comandos
+#Para mirar el historial de los commits de mi GitHub
+git log
+
+#**Truco:** NO es necesario saber todo el hash, es posible sólo con suficientes caracteres asegurando que no sea ambiguos
+git checkout 
+git status
+
+#Muestra las ramas de mi repositorio
+git branche 
+
+#Para cambiar de rama
+git ceckout RamaALaQueQuieroCambiar
+
+#Para mezclar las ramas - No es bidireccional - Debo estar en la rama que quiero fuscionar 
+git merge NombreDeLaRamaQueQuieroIntegrar
+
+#La rama que fue fuscionada sigue teniendo sus propios archivos 
+#Los archivos  que desean ser mezclados no pueden tener ningún tipo de conflicto
+
+#Es posible crear ramas dentro de ramas
+
+#Poner etiquetas a los diferentes commit (Forma más amigable para navegar dentro del GitHub)
+git tag
+```
+
+###Análisis de Fourier
+Fourier es muy imporante en la resolución de inmurables problemas de física y de ingenieria. Aplicaciones en imágenes con extensión .pgn, etc, análisis de sonido, en mécanica cuántica, entre otros...
+
+####Serie de Fourier
+Debe cumplir con las condiciones las siguientes condiciones:
+
+- Debe tener un número finito de máximos y mínimos
+- Debe tener un número finito de discontiunidades
+- Debe ser absolutabmen integrable, en todo el plano
+- Debe estar acotada
+
+####Coeficientes de Fourier
+![Serie De Fourier ](/home/aleaguilera/MC/MC/d20c101dc33bed7d8b3c674b3bbb296d.png  "Coeficientes")
+
+***Ejemplo ***
+Onda cuadrada (señales)
+
+>El HandsOn es el número 8
+>Solución está:
+
+##Clase 19 Junio
+
+###Etiquetas en GitHub
+
+```
+#Poner una etiqueta desde la terminal
+git tag -a "NombreDeLaEtiqueta"
+
+#Las etiquetas toca subirlas a mano desde la terminal
+git push origin master nombreDeLaEtiqueta
+```
+
+###Fourier
+
+
+>El HandsOn es el número 9
+>Solución está:
+
+##Clase 23 Junio
+
+>El HandsOn es el número 10
+>Solución está:
+
+##Clase 24 Junio
+
+>El HandsOn es el número 11
+>Solución está
+
+##Clase 26 Junio
+
+##Clase 30 Junio 
+
+>El HandsOn es el número 12
+>Solución está
