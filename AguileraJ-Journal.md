@@ -419,7 +419,7 @@ El objetivo principal de este método, viene desarrolado en un lenguaje de progr
 ###Simpy- Expresiones Símbolicas
 Se explicó la libreria de Simpy de forma interactiva, esto se muestra en el siguiente cuaderno.
 
-Se realizó:
+Se realizó:[Clase Iteractiva](https://github.com/JAleAguilera/MC/blob/master/ejemplo.ipynb) 
 
 >El taller número 7
 >Solución se encuntra en la carpeta Talleres
