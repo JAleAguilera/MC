@@ -242,6 +242,7 @@ Se trabajo toda la clase en el Experimento 1
 
 ##Clase 16 Junio
 ###Ajustes e Interpolación 
+Se trabajó en el manejo básico de las funciones de ajuste que se encuentran en la libreria de polyfit (Desde NUmpy) y con curvefit (Desde scipy)
 
 >El HandsOn es el número 7
 >Solución está
@@ -410,6 +411,13 @@ Llamado el método de los multi-pasos.
 El objetivo principal de este método, viene desarrolado en un lenguaje de programación bastante antiguo. 
 
 ***Ejemplo:*** Resolver la ecuación diferencial de Bessel 
+
+###OdeInt
+
+Herrameinta muy útil en la resolución de las ecuaciones diferenciales, es un libreria de Python, se usa importandose desde Scipy. 
+Es importante saber que la solución de la ecuación diferencial es con un intervalo que entra como parámetro.
+
+***Ejemplo:*** Resolucion de la ecuación de Schrödinger para la resonancia magnética
 
 >El HandsOn es el número 12
 >Solución está
