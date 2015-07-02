@@ -110,17 +110,16 @@ git check out "Hash"
 ```
 - Git utilidades mi proyecto de grado-- esfuerzo prologado-- guradando versiones 
 
-***Taller***
-Se copió y descomprimió el directorio dado. El directorio pertencia a la calse de métodos computacionales y se encontró que la fecha del segundo commit corresponde al sábado 5 de enero de 2013 a las 19:28:57, y el tema de la semana 15 del curso fue el Método de Inferencia Bayesiana
-
 >El HandsOn es el número 1
->Solución está
+
+>Sol:  [GItSolución](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn1/HandsOn-1.md) 
 
 ##Clase 2 Junio
 Enferme
 
 >El HandsOn es el número 2
->Solución está
+
+>Sol:[GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn2/HandsOn-2.md) 
 
 ##Clase 3 Junio
 
@@ -201,7 +200,8 @@ lista = [ "uno", "dos", "tres", 2]
 ```
 
 >El HandsOn es el número 3
->Solución está
+
+>Sol:[GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn3/HandsOn-3.md) 
 
 ##Clase 9 Junio
 
@@ -214,7 +214,8 @@ Funciona para "automatizar" una cadena de procesos
 gmake -f archivo.mk
 ```
 >El HandsOn es el número 4
->Solución está
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn4/HandsOn-4.md) 
 
 ##Clase 10 Junio
 ###Animación
@@ -232,20 +233,22 @@ Forma estandar para crear figuras en MatplotLib es:
 - Sobre los ejes se empieza a trabajar
 ```
 >El HandsOn es el número 5
->Solución está
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn5/HandsOn-5.md) 
 
 ##Clase 12 Junio
 Se trabajo toda la clase en el Experimento 1
 
 >El HandsOn es el número 6
->Solución está
+
+>Sol:[GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn6/HandsOn-6.md) 
 
 ##Clase 16 Junio
 ###Ajustes e Interpolación 
-Se trabajó en el manejo básico de las funciones de ajuste que se encuentran en la libreria de polyfit (Desde NUmpy) y con curvefit (Desde scipy)
 
 >El HandsOn es el número 7
->Solución está
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn7/HandsOn-7.md) 
 
 ##Clase 17 Junio
 ###Ramas del Repositorio
@@ -300,7 +303,8 @@ Debe cumplir con las condiciones las siguientes condiciones:
 Onda cuadrada (señales)
 
 >El HandsOn es el número 8
->Solución está:
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn8/HandsOn-8.md) 
 
 ##Clase 19 Junio
 
@@ -332,7 +336,7 @@ Es necesario que los puntos esten uniformemente distribuidos
 
 >El HandsOn es el número 9
 
->Solución está:
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn9/HandsOn-9.md) 
 
 ##Clase 23 Junio
 
@@ -357,7 +361,7 @@ Funciona para predecir un resultado acerca de un comportamiento futuro de cierta
 
 >El HandsOn es el número 10
 
->Solución está:
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn10/HandsOn-10.md) 
 
 ##Clase 24 Junio
 
@@ -385,7 +389,7 @@ El objetivo principal de este método es hallar los valores en el eje horizonal 
 
 >El HandsOn es el número 11
 
->Solución está
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn11/HandsOn-11.md) 
 
 ##Clase 26 Junio
 
@@ -412,15 +416,9 @@ El objetivo principal de este método, viene desarrolado en un lenguaje de progr
 
 ***Ejemplo:*** Resolver la ecuación diferencial de Bessel 
 
-###OdeInt
-
-Herrameinta muy útil en la resolución de las ecuaciones diferenciales, es un libreria de Python, se usa importandose desde Scipy. 
-Es importante saber que la solución de la ecuación diferencial es con un intervalo que entra como parámetro.
-
-***Ejemplo:*** Resolucion de la ecuación de Schrödinger para la resonancia magnética
-
 >El HandsOn es el número 12
->Solución está
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn12/HandsOn-12.md) 
 
 ##Clase 1 Julio
 
@@ -429,8 +427,6 @@ Se explicó la libreria de Simpy de forma interactiva, esto se muestra en el sig
 
 Se realizó:[Clase Iteractiva](https://github.com/JAleAguilera/MC/blob/master/ejemplo.ipynb) 
 
->El taller número 7
->Solución se encuntra en la carpeta Talleres
-
 >El HandsOn es el número 13
->Solución está
+
+>Sol: [GitLink](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn13/HandsOn-13.md) 
