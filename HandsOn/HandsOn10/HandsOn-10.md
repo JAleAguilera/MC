@@ -7,6 +7,3 @@
 
 ![](https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/hands_on/figures/solaractivity.png?raw=true =500x)
 
-***Solución***
-
-[DFT Notebook](https://github.com/JAleAguilera/MC/blob/master/HandsOn/HandsOn10/DFT.ipynb) 

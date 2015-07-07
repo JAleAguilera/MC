@@ -59,6 +59,6 @@ esac
 
 1. Dedique 10 minutos a pensar en proyectos que le gustaría desarrollar con lo que hemos visto en las primeras dos semanas del curso. **log**
 
-Todo lo relacionado con el pryecto se encuentra en la carpeta de mi repositorio llamada ProyectoFinal 
+Todo lo relacionado con el proyecto se encuentra en la carpeta de mi repositorio llamada ProyectoFinal 
 
 [Proyecto Final Carpeta](https://github.com/JAleAguilera/MC/tree/master/ProyectoFinal) 
