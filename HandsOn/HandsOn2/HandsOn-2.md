@@ -8,7 +8,28 @@
 6. Descargue con `curl` el código fuente de la página [Pi - 10 Million Digits](http://pi.karmona.com), límpielo de todo caracter diferente a los dígitos de pi y divídalo en líneas con 20 dígitos cada una quedando ellas en un archivo con nombre `PIslices20.dat`. **log**
 7. Decida si su número de teléfono celular se encuentra en los primeros 10 millones de dígitos de pi *usando PIslices20.dat*. Use [pcregrep](http://stackoverflow.com/questions/2686147/how-to-find-patterns-across-multiple-lines-using-grep) para considerar aciertos que se extienden en dos líneas.
 
+```
+#!/bin/bash
+
+curl -s http://pi.karmona.com/ > PIslices20.dat 
+
+sed -i '1d' PIslices20.dat 
+
+sed -i 's/<CENTER><B>Pi\ -\ 10 Million\ Digits<\/B><BR><BR><BR>//g' PIslices20.dat
+
+sed -i 's/<B>//g' PIslices20.dat
+
+sed -i 's/<\/B>//g' PIslices20.dat
+
+sed -i 's/<\/center><\/BODY><\/HTML>//g' PIslices20.dat
+
+sed -i 's/<BR>//g' PIslices20.dat
+
+sed -E -i "s/.[^.]{20}/&\n/g" PIslices20.dat
+```
+
 ## gnuplot
 
 1. Escriba un script de `bash` que reciba tres argumentos, el nombre de un archivo csv, el número de la columna para el eje horizontal y el número de la columna para el eje verticual y que haga con `gnuplot` una gráfica de dispersión con puntos visibles y unidos por líneas rectas. Haga pruebas con el archivo [joviansatellites.csv](https://raw.githubusercontent.com/ComputoCienciasUniandes/MetodosComputacionales/master/examples/joviansatellites.csv)] **log**
 2. Haga una gráfica en la terminal de la [lemniscata de Bernoulli](http://en.wikipedia.org/wiki/Lemniscate_of_Bernoulli) donde solamente se muestre la curva, es decir, sin títulos ni ejes. Use la representación paramétrica.
+
